@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: prairie-rail-solutions
+    runtime: node
+    buildCommand: npm run build
+    startCommand: npm start
+    rootDir: web
+    envVars:
+      - key: NODE_ENV
+        value: production

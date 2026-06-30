@@ -1,0 +1,7 @@
+[build]
+cmd = "npm run build"
+publish = "web/.next"
+
+[start]
+cmd = "npm run start"
+workdir = "web"

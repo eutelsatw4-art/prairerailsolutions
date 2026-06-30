@@ -1,0 +1,14 @@
+old_url,new_url,redirect_type,notes
+/,/,301,No change
+/about,/about,301,No change
+/services,/services,301,No change
+/careers,/careers,301,No change
+/contact,/contact,301,No change
+/track-inspection,/services/track-inspection,301,Service detail standardization
+/routine-track-maintenance,/services/routine-track-maintenance,301,Service detail standardization
+/preventative-maintenance,/services/preventative-maintenance,301,Service detail standardization
+/railcar-storage,/services/railcar-storage,301,Service detail standardization
+/rail-operations,/services/rail-operations,301,Service detail standardization
+/apply,/careers#apply,301,Careers funnel consolidation
+/privacy-policy,/privacy-policy,301,No change
+/accessibility-statement,/accessibility-statement,301,No change

@@ -1,0 +1,13 @@
+{
+  "name": "prairie-rail-solutions",
+  "private": true,
+  "workspaces": ["web"],
+  "scripts": {
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web",
+    "start": "npm run start --workspace=web"
+  },
+  "engines": {
+    "node": "20"
+  }
+}

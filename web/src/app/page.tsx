@@ -48,7 +48,7 @@ const teamMembers = [
   {
     name: "Manjit Bhullar",
     role: "Interim General Manager",
-    image: "/images/rail.jpg",
+    image: "/images/team/rail.jpg",
   },
   {
     name: "Ed Clarkson",

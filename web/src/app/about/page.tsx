@@ -22,7 +22,7 @@ const teamMembers = [
   {
     name: "Manjit Bhullar",
     title: "Interim General Manager",
-    image: "/images/rail.jpg",
+    image: "/images/team/rail.jpg",
     bio: "Manjit Bhullar serves as the Interim Manager at Prairie Rail Solutions, bringing extensive leadership experience in rail operations, infrastructure management, and business development. With a strong focus on operational excellence, safety, and customer service, he is committed to delivering practical, reliable solutions that help customers keep their rail operations running efficiently.",
   },
   {

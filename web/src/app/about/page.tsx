@@ -10,7 +10,7 @@ const timelineEvents = [
   { year: "2012", title: "FOUNDED", description: "Prairie Rail Solutions Established. Founded to support the Prairie Dog Central Railway, with an initial focus on rail car storage for agricultural and industrial customers." },
   { year: "2012-2019", title: "EARLY GROWTH", description: "PRS expands rail car storage services and establishes long-term relationships with major industrial and commodity-based customers." },
   { year: "2020-2022", title: "MARKET DISRUPTION", description: "Global supply chain disruptions impact rail storage demand, highlighting the risks of a single-revenue business model." },
-  { year: "OCTOBER 2024", title: "STRATEGIC TRANSFORMATION", description: "Tim Brewer appointed Chief Executive Officer. PRS launches a diversification strategy focused on inspections, maintenance, and industrial switching." },
+  { year: "OCTOBER 2024", title: "STRATEGIC TRANSFORMATION", description: "A new CEO was appointed. PRS launches a diversification strategy focused on inspections, maintenance, and industrial switching." },
   { year: "2024-2025", title: "INFRASTRUCTURE INVESTMENT", description: "PRS rebuilds and deploys key Maintenance of Way equipment, including a ballast regulator, tamper, and tie insertion/removal systems." },
   { year: "2025", title: "PRAIRIE DOG CENTRAL REHABILITATION", description: "PRS completes phase 1 of the PDCR rehabilitation project, consisting of 17 miles of track, replacing more than 2,000 ties, installing over 1.5 million pounds of granite ballast, and restored regulatory compliance." },
   { year: "MAY 2025", title: "REGULATORY ACHIEVEMENT", description: "The Prairie Dog Central Railway is declared compliant and resumes full seasonal operations without incident." },
@@ -20,10 +20,10 @@ const timelineEvents = [
 
 const teamMembers = [
   {
-    name: "Tim Brewer",
-    title: "Chief Executive Officer",
-    image: "/images/team/tim-brewer.jpg",
-    bio: "Tim Brewer was appointed CEO in October 2024, marking the beginning of PRS's strategic transformation. Under his leadership, the company diversified its services, invested in maintenance equipment, and built a more resilient business model.",
+    name: "Manjit Bhullar",
+    title: "Interim General Manager",
+    image: "/images/rail.jpg",
+    bio: "Manjit Bhullar serves as the Interim Manager at Prairie Rail Solutions, bringing extensive leadership experience in rail operations, infrastructure management, and business development. With a strong focus on operational excellence, safety, and customer service, he is committed to delivering practical, reliable solutions that help customers keep their rail operations running efficiently.",
   },
   {
     name: "Ed Clarkson",
@@ -79,9 +79,9 @@ export default function AboutPage() {
             <p className="text-[color:rgb(17_34_53_/_0.82)] mb-4">
               While this model was successful in strong markets, it proved vulnerable during periods of disruption. The COVID-19 pandemic exposed the risks of relying on a single revenue stream and underscored the need for long-term operational stability.
             </p>
-            <p className="text-[color:rgb(17_34_53_/_0.82)] mb-4">
-              In October 2024, PRS appointed Chief Executive Officer Tim Brewer, marking the beginning of a strategic transformation. With a small but committed team, the company set out to diversify its services, strengthen its infrastructure, and build a more resilient business.
-            </p>
+<p className="text-[color:rgb(17_34_53_/_0.82)] mb-4">
+               In October 2024, PRS appointed a new Chief Executive Officer, marking the beginning of a strategic transformation. With a small but committed team, the company set out to diversify its services, strengthen its infrastructure, and build a more resilient business.
+             </p>
           </div>
           <div className="mt-6 md:mt-0">
             <div className="relative h-80 w-full rounded-2xl overflow-hidden">

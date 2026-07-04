@@ -46,9 +46,9 @@ const serviceCards = [
 
 const teamMembers = [
   {
-    name: "Tim Brewer",
-    role: "Chief Executive Officer",
-    image: "/images/team/tim-brewer.jpg",
+    name: "Manjit Bhullar",
+    role: "Interim General Manager",
+    image: "/images/rail.jpg",
   },
   {
     name: "Ed Clarkson",

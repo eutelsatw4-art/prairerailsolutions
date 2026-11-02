@@ -86,7 +86,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-6 md:mt-0">
             <div className="relative h-80 w-full rounded-2xl overflow-hidden">
-              <Image src="/assets/extracted-dedup/0b7014_a1ce322c228542a983bea46f5e510bd2~mv2.jpg.jpg" alt="Railway work" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+              <Image src="/images/logo.jpeg" alt="Railway work" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain bg-white" />
             </div>
           </div>
         </div>

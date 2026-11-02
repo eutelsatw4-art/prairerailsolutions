@@ -20,10 +20,10 @@ const timelineEvents = [
 
 const teamMembers = [
   {
-    name: "Manjit Bhullar",
-    title: "Interim General Manager",
+    name: "Tamera McGregor",
+    title: "General Manager",
     image: "/images/team/rail.jpg",
-    bio: "Manjit Bhullar serves as the Interim Manager at Prairie Rail Solutions, bringing extensive leadership experience in rail operations, infrastructure management, and business development. With a strong focus on operational excellence, safety, and customer service, he is committed to delivering practical, reliable solutions that help customers keep their rail operations running efficiently.",
+    bio: "Tamera brings over 15 years of executive experience leading multimodal logistics, operational strategy, and team development. With a strong focus on building positive workplace culture and streamlining day-to-day operations, she is dedicated to driving continuous improvement across the facility. Tamera is especially proud to support the continued operation of the Vintage Locomotive Society and the Prairie Dog Central, helping preserve and celebrate rich railway heritage for the community. Outside of work, supported by a busy, blended family, you'll undoubtedly spot her at a rink, on the sidelines of a field, or on the slopes enjoying quality time together.",
   },
   {
     name: "Ed Clarkson",

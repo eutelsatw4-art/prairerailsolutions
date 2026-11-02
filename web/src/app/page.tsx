@@ -239,8 +239,8 @@ export default function Home() {
           Led by rail-experienced professionals, our team brings operations discipline, maintenance expertise, and accountability to every engagement.
         </p>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {teamMembers.map((member) => (
-            <article key={member.name} className="elevate-hover overflow-hidden rounded-2xl border border-white/50 bg-white/70">
+           {teamMembers.map((member, index) => (
+             <article key={index} className="elevate-hover overflow-hidden rounded-2xl border border-white/50 bg-white/70">
               <div className="relative h-56 w-full">
                 <Image
                   src={member.image}

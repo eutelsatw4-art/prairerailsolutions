@@ -86,7 +86,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-6 md:mt-0">
             <div className="relative h-80 w-full rounded-2xl overflow-hidden">
-              <Image src="/images/logo.jpeg" alt="Railway work" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain bg-white" />
+              <Image src="/images/logo.png" alt="Railway work" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain" />
             </div>
           </div>
         </div>
@@ -176,9 +176,9 @@ export default function AboutPage() {
           Led by experienced rail professionals, the PRS team includes inspectors, operators, trainers, and technical specialists — all committed to safe and efficient rail operations.
         </p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {teamMembers.map((member) => (
+          {teamMembers.map((member, index) => (
             <TeamMemberCard
-              key={member.name}
+              key={index}
               name={member.name}
               title={member.title}
               image={member.image}

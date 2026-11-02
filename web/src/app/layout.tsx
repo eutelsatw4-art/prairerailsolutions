@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Image from "next/image";
 import { Rajdhani, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
@@ -48,10 +48,7 @@ export default function RootLayout({
         <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--surface)]/88 backdrop-blur-md">
           <div className="mx-auto flex w-full max-w-[96rem] items-center justify-between px-6 py-4">
             <Link href="/" className="group">
-              <p className="text-2xl font-bold tracking-wide text-[var(--brand-ink)]">PRS</p>
-              <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--brand-steel)]/90">
-                Prairie Rail Solutions
-              </p>
+              <Image src="/images/logo.jpeg" alt="Prairie Rail Solutions" width={120} height={40} className="h-10 w-auto" />
             </Link>
             <nav aria-label="Primary" className="flex items-center gap-6 text-sm font-semibold text-[var(--brand-ink)]">
               <div className="relative group">

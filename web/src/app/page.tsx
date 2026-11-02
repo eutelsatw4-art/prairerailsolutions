@@ -298,10 +298,10 @@ export default function Home() {
             <Image src="/images/centreport-logo.png" alt="CentrePort Canada" width={140} height={40} className="h-8 w-auto" />
           </a>
           <a className="btn-ghost" href="https://railwaysuppliers.ca/" target="_blank" rel="noreferrer">
-            Railway Association of Canada
+            <Image src="/images/cars-logo.png" alt="Railway Association of Canada" width={140} height={40} className="h-8 w-auto" />
           </a>
           <a className="btn-ghost" href="https://www.railcan.ca/" target="_blank" rel="noreferrer">
-            RailCan
+            <Image src="/images/rac-logo.png" alt="RailCan" width={140} height={40} className="h-8 w-auto" />
           </a>
           <a className="btn-ghost" href="https://www.wcslra.com/" target="_blank" rel="noreferrer">
             <Image src="/images/wcslra-logo.svg" alt="WCSLRA" width={120} height={40} className="h-8 w-auto" />

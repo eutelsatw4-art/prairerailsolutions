@@ -60,11 +60,11 @@ const teamMembers = [
     role: "Operations Supervisor",
     image: "/images/team/max-kimacovich.jpg",
   },
-  {
-    name: "Eric Hadden",
-    role: "Maintenance of Way Supervisor",
-    image: "/images/team/eric-hadden.jpg",
-  },
+   {
+     name: "Demo",
+     role: "Demo",
+     image: "/images/team/rail.jpg",
+   },
 ];
 
 const heroSlides = [

@@ -38,12 +38,12 @@ const teamMembers = [
     image: "/images/team/max-kimacovich.jpg",
     bio: "With over a century of combined family service in the railroad industry, I bring a deep-rooted commitment to safety, professionalism, and operational excellence. My career has been built on upholding the highest standards of rule compliance while driving safe, efficient, and customer-focused rail operations.",
   },
-  {
-    name: "Eric Hadden",
-    title: "Maintenance of Way Supervisor",
-    image: "/images/team/eric-hadden.jpg",
-    bio: "Eric Hadden is a TIGS-certified track inspector and a fourth-generation railroader with a deep-rooted commitment to the industry. He brings years of hands-on experience, technical precision, and heritage-driven pride to every project. Eric is also a CWB-qualified welder, adding a versatile skill set that supports safe, reliable, and high-quality rail infrastructure work.",
-  },
+   {
+     name: "Demo",
+     title: "Demo",
+     image: "/images/team/rail.jpg",
+     bio: "Demo",
+   },
 ];
 
 export default function AboutPage() {

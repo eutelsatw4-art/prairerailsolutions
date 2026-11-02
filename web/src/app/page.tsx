@@ -304,7 +304,7 @@ export default function Home() {
             RailCan
           </a>
           <a className="btn-ghost" href="https://www.wcslra.com/" target="_blank" rel="noreferrer">
-            WCSLRA
+            <Image src="/images/wcslra-logo.svg" alt="WCSLRA" width={120} height={40} className="h-8 w-auto" />
           </a>
         </div>
       </section>

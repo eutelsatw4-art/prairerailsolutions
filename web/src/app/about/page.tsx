@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import TeamMemberCard from "@/components/team-member-card";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -176,16 +177,13 @@ export default function AboutPage() {
         </p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {teamMembers.map((member) => (
-            <article key={member.name} className="elevate-hover rounded-2xl border border-white/60 bg-white/75 overflow-hidden">
-              <div className="relative h-64 w-full">
-                <Image src={member.image} alt={member.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-[var(--brand-ink)]">{member.name}</h3>
-                <p className="text-sm font-medium text-[var(--brand-red)] mt-1">{member.title}</p>
-                <p className="mt-3 text-sm text-[color:rgb(17_34_53_/_0.82)] line-clamp-4">{member.bio}</p>
-              </div>
-            </article>
+            <TeamMemberCard
+              key={member.name}
+              name={member.name}
+              title={member.title}
+              image={member.image}
+              bio={member.bio}
+            />
           ))}
         </div>
         <div className="mt-6 md:hidden">

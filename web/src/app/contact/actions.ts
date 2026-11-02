@@ -1,6 +1,7 @@
 "use server";
 
 import { appendFile, mkdir } from "node:fs/promises";
+import nodemailer from "nodemailer";
 import path from "node:path";
 
 type ContactFormState = {
@@ -50,6 +51,29 @@ export async function submitContactForm(
     const outFile = path.join(dataDir, "contact-submissions.ndjson");
     await mkdir(dataDir, { recursive: true });
     await appendFile(outFile, `${JSON.stringify(submission)}\n`, "utf8");
+
+    const smtpHost = process.env.SMTP_HOST;
+    const smtpPort = Number(process.env.SMTP_PORT ?? 587);
+    const smtpUser = process.env.SMTP_USER;
+    const smtpPass = process.env.SMTP_PASS;
+    const toEmail = process.env.CONTACT_TO_EMAIL ?? "operations@prairierailsolutions.com";
+
+    if (smtpHost && smtpUser && smtpPass) {
+      const transporter = nodemailer.createTransport({
+        host: smtpHost,
+        port: smtpPort,
+        secure: smtpPort === 465,
+        auth: { user: smtpUser, pass: smtpPass },
+      });
+
+      await transporter.sendMail({
+        from: smtpUser,
+        to: toEmail,
+        replyTo: submission.email,
+        subject: `New quote request from ${submission.firstName} ${submission.lastName}`,
+        text: `Name: ${submission.firstName} ${submission.lastName}\nEmail: ${submission.email}\nPhone: ${submission.phone}\nService: ${submission.service}\n\nMessage:\n${submission.message}\n\nSubmitted: ${submission.submittedAt}`,
+      });
+    }
 
     return {
       status: "success",

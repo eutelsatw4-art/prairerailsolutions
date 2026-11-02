@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import TeamMemberCard from "@/components/team-member-card";
+import TimelineAccordion from "@/components/timeline-accordion";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -86,7 +87,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-6 md:mt-0">
             <div className="relative h-80 w-full rounded-2xl overflow-hidden">
-              <Image src="/images/logo.png" alt="Railway work" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain" />
+              <Image src="/images/logo.png" alt="Railway work" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-contain animate-pulse" />
             </div>
           </div>
         </div>
@@ -95,21 +96,7 @@ export default function AboutPage() {
       <section className="section-shell surface-glass mb-8">
         <h2 className="text-3xl font-bold text-[var(--brand-ink)] mb-6">Prairie Rail Solutions Timeline</h2>
         <div className="relative">
-          <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-[var(--brand-red)]/30 hidden md:block"></div>
-          <div className="space-y-8">
-            {timelineEvents.map((event, index) => (
-              <div key={index} className="relative md:pl-12">
-                <div className="absolute left-0 top-2 w-8 h-8 bg-[var(--brand-red)] rounded-full flex items-center justify-center text-white font-bold text-xs hidden md:flex">
-                  {index + 1}
-                </div>
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--brand-red)]">{event.year}</p>
-                  <h3 className="text-xl font-semibold text-[var(--brand-ink)] mt-1">{event.title}</h3>
-                  <p className="text-sm text-[color:rgb(17_34_53_/_0.82)] mt-2">{event.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <TimelineAccordion events={timelineEvents} />
         </div>
       </section>
 
@@ -175,7 +162,7 @@ export default function AboutPage() {
         <p className="text-sm text-[color:rgb(17_34_53_/_0.82)] mb-6">
           Led by experienced rail professionals, the PRS team includes inspectors, operators, trainers, and technical specialists — all committed to safe and efficient rail operations.
         </p>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member, index) => (
             <TeamMemberCard
               key={index}

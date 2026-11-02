@@ -295,7 +295,7 @@ export default function Home() {
         </p>
         <div className="mt-5 flex flex-wrap gap-3 text-sm font-semibold">
           <a className="btn-ghost" href="https://centreportcanada.ca/" target="_blank" rel="noreferrer">
-            CentrePort Canada
+            <Image src="/images/centreport-logo.png" alt="CentrePort Canada" width={140} height={40} className="h-8 w-auto" />
           </a>
           <a className="btn-ghost" href="https://railwaysuppliers.ca/" target="_blank" rel="noreferrer">
             Railway Association of Canada

@@ -50,11 +50,11 @@ const teamMembers = [
     role: "General Manager",
     image: "/images/team/rail.jpg",
   },
-  {
-    name: "Ed Clarkson",
-    role: "Maintenance of Way Manager",
-    image: "/images/team/ed-clarkson.jpg",
-  },
+   {
+     name: "Demo",
+     role: "Demo",
+     image: "/images/team/rail.jpg",
+   },
   {
     name: "Max Kimacovich",
     role: "Operations Supervisor",

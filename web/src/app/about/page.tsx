@@ -26,12 +26,12 @@ const teamMembers = [
     image: "/images/team/rail.jpg",
     bio: "Tamera brings over 15 years of executive experience leading multimodal logistics, operational strategy, and team development. With a strong focus on building positive workplace culture and streamlining day-to-day operations, she is dedicated to driving continuous improvement across the facility. Tamera is especially proud to support the continued operation of the Vintage Locomotive Society and the Prairie Dog Central, helping preserve and celebrate rich railway heritage for the community. Outside of work, supported by a busy, blended family, you'll undoubtedly spot her at a rink, on the sidelines of a field, or on the slopes enjoying quality time together.",
   },
-  {
-    name: "Ed Clarkson",
-    title: "Maintenance Of Way Manager",
-    image: "/images/team/ed-clarkson.jpg",
-    bio: "I am a life long Winnipeger with over 40 years of rail experience in a variety of positions. Starting in Winnipeg Yard with CP Rail in the Yard Car Department I received my introduction to railroading. Hiring on with the Greater Winnipeg Water District Railway starting as a Track Worker becoming a Trainman and Engine Driver before moving into a management position as Supervisor of the Water and Waste Department Aqueduct Railway Department. I was brought on to assist Prairie Dog Central with the maintenance of their Heritage Train, Track Infrastructure and a Track Foreman with Prairie Rail Solutions. A position I remain in as Track Manager to this day.",
-  },
+   {
+     name: "Demo",
+     title: "Demo",
+     image: "/images/team/rail.jpg",
+     bio: "Demo",
+   },
   {
     name: "Max Kimacovich",
     title: "Operations Supervisor",

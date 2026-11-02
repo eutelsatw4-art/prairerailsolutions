@@ -293,7 +293,7 @@ export default function Home() {
         <p className="mt-3 text-[color:rgb(17_34_53_/_0.85)]">
           PRS is proud to be an industry member of organizations that strengthen short line railways and industrial rail collaboration.
         </p>
-        <div className="mt-5 flex flex-wrap gap-3 text-sm font-semibold">
+         <div className="mt-5 flex flex-wrap items-center gap-6 text-sm font-semibold">
           <a className="btn-ghost" href="https://centreportcanada.ca/" target="_blank" rel="noreferrer">
             <Image src="/images/centreport-logo.png" alt="CentrePort Canada" width={140} height={40} className="h-8 w-auto" />
           </a>
